@@ -5,14 +5,12 @@ Buat Sebuah folder
 ```
 mkdir quiz-2
 cd quiz-2
-
 ```
 buat file ansible.cfg
 ```
 # ansible.cfg
 [defaults]
 inventory = ./inventory
-
 ```
 buat file inventory
 ```
@@ -66,7 +64,6 @@ buat file quiz-2_variables.yml
         that:
           - webpage.status == 200
           - "'adinusa lab quiz variables - aceptriana' in webpage.content"
-
 ```
 
 jalankan playbook buat verifikasi
