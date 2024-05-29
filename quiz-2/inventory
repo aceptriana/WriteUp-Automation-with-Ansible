@@ -1,0 +1,3 @@
+# inventory
+[pod-username-managed2]
+pod-username-managed2 ansible_user=student ansible_become=yes
